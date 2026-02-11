@@ -21,3 +21,50 @@ This is an original implementation intended as a minimal, transparent research m
 ---
 
 ## Structure
+
+reactive-spray-1d/
+├── src/
+│   ├── solver.py        # Main time integration loop
+│   ├── spray.py         # Spray evaporation model
+│   └── kinetics.py      # Cantera kinetics interface
+├── notebooks/           # Exploration and visualization
+├── results/             # Output figures and data
+
+---
+
+## Goals
+
+- Study coupling between evaporation and chemical reactions  
+- Explore temperature and species profiles along the column  
+- Provide a clean reference implementation for reactive spray modeling  
+
+---
+
+## Current Status
+
+Skeleton implementation in place.  
+Physics and numerics will be added incrementally.
+
+---
+
+## Planned Features
+
+- Evaporation model
+- Species transport
+- Energy equation
+- Cantera integration
+- Visualization of temperature and species profiles
+
+---
+
+## What I Learned (ongoing)
+
+- Coupling stiff chemical kinetics with transport equations
+- Numerical stability considerations in reactive systems
+- Modular design for scientific Python projects
+
+---
+
+## Notes
+
+This model is fully original work. Parameters and physics are simplified for public demonstration purposes.
